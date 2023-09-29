@@ -1,0 +1,154 @@
+/* All Packages Css */
+.makeflex{
+    display: flex;
+}
+/* Kerla Package Css */
+.serach-container{
+    justify-content: space-around;
+    background-color: #0A223D;
+    font-weight: 500;
+}
+.search-bar{
+    display: flex;
+    text-transform: capitalize;
+    color: white;
+}
+.starting-from{
+    flex-direction: column;
+}
+.modify-input{
+    padding: 4px 19px;
+}
+.slider-list{
+    position: relative;
+}
+.slider-button{
+    position: absolute;
+    z-index: 1;
+    top: 250px;
+
+}
+.slider-pre button{
+    left: 25px;
+
+}
+.slider-next{
+    right: 50px;
+}
+.section{
+    background-color: #F2F2F2;
+}
+.card{
+    background-color: #FFFFFF;
+}
+.card_title{
+    font-weight: bold;
+}
+.all_icons{
+    text-align: center;
+    justify-content: space-between;
+}
+.icon{
+    margin: 0px 8px;
+}
+.card_bottom{
+    justify-content: space-between;
+}
+.price_person{
+    margin-bottom: 0px;
+    font-weight: 800;
+    font-size: 25px;
+}
+.per_person{
+    font-size: 10px;
+    opacity: .89;
+}
+.pointer{
+    cursor: pointer;
+}
+.top_section_img img{
+    width: 100%;
+}
+.top_section_img{
+    position: relative;
+}
+.top_section_content{
+    padding: 0px 100px;
+    position: absolute;
+    top: 20px;
+    color: white;
+    justify-content: space-between;
+    font-weight: 800;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.cards_head{
+    font-weight: 800;
+}
+.preferance_wrapper{width: 100%;
+    box-shadow: 0 2px 6px 0 rgba(0,0,0,.12);
+    background-color: #fff;
+    height: 72px;
+    position: relative;
+    z-index: 1;}
+.preference_main{
+    justify-content: space-around;
+}
+.hotel_choice{
+    margin-left: -40px;
+}
+.list{
+    border: 1px solid rgb(238, 235, 235);
+    
+}
+.list{
+    cursor: pointer;
+}
+.rating-star{
+    margin-left: 2px;
+    margin-bottom: -4px;
+    font-size: 12px;
+    white-space: nowrap;
+}
+.font10{
+    font-size: 10px;
+    line-height: 10px;
+}
+.overall_slider{
+    display: flex;
+    overflow-x: scroll;
+}
+.card_image{
+    position: relative;
+}
+.duration{
+    padding: 5px 8px;
+    background: var(--card-d-n-info-bg-color, #000000);
+    border-radius: 13px;
+    color: var(--card-d-n-info-color, #ffffff);
+    position: absolute;
+    margin-top: 230px;
+    right: 10px;
+    z-index: 1;
+}
+.down_icon{
+    font-size: 20px;
+    color: blue;
+}
+.button_style{
+    width: 200px;
+}
+.react-datepicker__input-container input{
+    border: none;
+    height: 70px;
+    font-size: 22px;
+    font-weight: 700;
+    width: 140px;
+}
+@media (max-width:768px) {
+    
+.padding_top{
+    padding-top:30px ;
+    
+}
+}

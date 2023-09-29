@@ -1,0 +1,113 @@
+/* Navbar All Css */
+.aligncontent {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.navright_design {
+    border: 0;
+    outline: 0;
+}
+.justify-end{
+    justify-content: end;
+}
+.border-right{
+    border-right: 1px dotted grey;
+    padding: 0px 5px ;
+}
+
+/* Navbar Css */
+.navbar1 {
+    background-color: #051322;
+    background-size: cover;
+}
+
+.font12 {
+    font-size: 12px;
+    margin-bottom: 0px;
+}
+
+.font10 {
+    font-size: 10px;
+    margin-bottom: 0px;
+}
+
+.logincreate {
+    background-image: var(--color-btn-primary-bg, linear-gradient(93deg, #53b2fe, #065af3));
+    border: 0;
+    border-radius: 4px;
+    height: 42px;
+    margin-right: 0;
+    width: 254px;
+    padding: 10px;
+    margin: 0px;
+    text-decoration: none;
+}
+
+.appendNavbrTop {
+    margin-top: -15px;
+}
+
+.drop_icon {
+    color: blue;
+}
+
+/* Navbar2 Css */
+ 
+#navbar2.sticky{
+    position: sticky;
+    z-index: 2;
+    background-color: white;
+}
+#navbar2.none{
+    display: none;
+}
+.nav_icons {
+    display: flex;
+    margin-bottom: 8px;
+}
+
+.me-auto a:hover {
+    color: black;
+}
+
+.fontweight_600 {
+    font-weight: 600;
+}
+
+.create_account {
+    line-height: 10px;
+    font-weight: 600;
+}
+
+/* Navbar3 Css */
+.header-element {
+    border-radius: 10px;
+    padding: 10px 15px;
+    position: absolute;
+    margin: 0px auto;
+    left: 0;
+    right: 0;
+    top: 80px;
+    width: 60%;
+    z-index: 1;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color: white;
+
+}
+
+.nav_icons,
+.nav_content {
+    color: rgb(50, 48, 48);
+    text-decoration: none;
+}
+
+
+
+@media (max-width:780px) {
+    .header-element {
+        display: block;
+    }
+}

@@ -1,0 +1,43 @@
+.crousal{
+    background-color: #FFFFFF;
+    box-shadow: 0 3px 30px 0 rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    padding: 10px;
+    margin: 20px 0px;
+}
+.allCardHeader{
+    font-size: 40px;
+    font-weight: 600;
+    padding: 10px 0px;
+}
+.slick-list{
+    display: flex;
+    overflow-x: scroll;
+
+}
+.slick-track{
+}
+.one img {
+    margin: 0px 5px;
+    height:220px;
+    width: 200px;
+    border-radius: 10px;
+}
+.allSlick{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding: 20px;
+}
+.tp_dest-header{
+display: flex;
+justify-content: space-between;
+}
+.arrow{
+    padding: 10px;
+}
+.arrow button{
+    padding: 8px;
+    margin: 10px;
+    border-radius: 20px;
+}
